@@ -17,7 +17,7 @@ if(finalYear >= 18 && getGender == 2){
     document.getElementById("secenddiv").style.height= ("600px");
     document.getElementById("Result").innerText= ( getValueNAme + " আপনার বয়স এখন: "+ finalYear + ".  আপনি যেহুতু একজন সুন্দরী নারী, তাই আপনার এখনি বিয়ে করা ফেলা উচিত৷ অবশ্যই বিয়ের সময় আমাকে দাওয়াত দিবেন। আশায় রইলাম। ধন্যবাদ  আমাকে ব্যবহার করার জন্য।");}
 
-if(finalYear >= 18 && getGender == 1){
+if(finalYear >= 21 && getGender == 1){
     document.getElementById("secenddiv").style.height= ("600px");
     document.getElementById("Result").innerText= ( getValueNAme + " আপনার বয়স এখন: "+ finalYear + ". আপনি যেহুতু পুরুষ, তাই আপনাকে শুধু বিয়ে করলেই হবেনা, টাকা পয়সাও ইনকাম করতে হবে৷ যদি আপনি ভালোমানের টাকা ইনকাম করে থাকেন, তাহলে এখনি বিয়ে করে ফেলুন। অবশ্যই আমাকে দাওয়াত দিবেন। আমাকে ব্যবহার করার জন্য ধন্যবাদ।");}
 

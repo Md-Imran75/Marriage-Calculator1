@@ -21,7 +21,7 @@ if(finalYear >= 21 && getGender == 1){
     document.getElementById("secenddiv").style.height= ("600px");
     document.getElementById("Result").innerText= ( getValueNAme + " আপনার বয়স এখন: "+ finalYear + ". আপনি যেহুতু পুরুষ, তাই আপনাকে শুধু বিয়ে করলেই হবেনা, টাকা পয়সাও ইনকাম করতে হবে৷ যদি আপনি ভালোমানের টাকা ইনকাম করে থাকেন, তাহলে এখনি বিয়ে করে ফেলুন। অবশ্যই আমাকে দাওয়াত দিবেন। আমাকে ব্যবহার করার জন্য ধন্যবাদ।");}
 
-if(finalYear < 18 && getGender == 1){
+if(finalYear < 21 && getGender == 1){
     document.getElementById("secenddiv").style.height= ("600px");
     document.getElementById("Result").innerText= ( getValueNAme + " আপনার বয়স এখন: "+ finalYear + ".  আপনার বিয়ের বয়স হয়নি৷ অনুগ্রহ করে আপনি ২১ বছর হওয়া পর্যন্ত অপেক্ষা করুন। আমি আপনার জন্য সুন্দরী নারী দেখে রাখব, আপনার বয়স হলেই আপনাকে জানিয়ে দিব। আমাকে ব্যবহার করার জন্য ধন্যবাদ।");}
 

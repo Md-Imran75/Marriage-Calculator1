@@ -1,0 +1,91 @@
+
+
+
+body{
+    background-color: tomato;
+    
+}
+
+#secenddiv h2{padding-top: 20px;
+    color: #293443;
+    
+}
+
+#secenddiv{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #BAB7AC;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}
+#Name{
+    margin-top: 30px;
+    font-size: 15px;
+    height: 40px;
+    width: 300px;
+    background-color: #293443;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+}
+#Birthyear{
+    margin-top: 20px;
+    font-size: 15px;
+    height: 40px;
+    width: 300px;
+    background-color: #293443;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+}
+#Gender{
+    margin-top: 20px;
+    font-size: 15px;
+    height: 40px;
+    width: 300px;
+    background-color: #293443;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+
+}
+#Submit{
+    margin-top: 30px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    background-color: #eeeeee;
+    color: black;
+    padding-top: 10px ;
+    padding-bottom: 25px ;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    border: none;
+    font-weight: bolder;
+    background-color: #293443;
+    color: white;
+    
+}
+
+#Submit:hover{
+    background-color: tomato;
+    transition: .4s;
+    transform-origin:left;
+}
+#Result{
+    
+    margin-top: 132px;
+    position: absolute;
+    margin-left: -250px;
+    color: black;
+    max-width: 350px;
+    text-align: center;
+}

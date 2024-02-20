@@ -10,7 +10,7 @@ const getValueNAme   = document.getElementById("Name").value;
 const getValueYear   = document.getElementById("Birthyear").value;
 const getValueYearNumber = parseFloat(getValueYear);
 const getGender    = document.getElementById("Gender").value;
-var year = 2022;
+var year = 2024;
 var finalYear = year - getValueYearNumber;
  
 if(finalYear >= 18 && getGender == 2){
